@@ -38,6 +38,14 @@ body {
     color: #FFFFFF;
     width: 160px;
     height: 194px;
+    text-align: center;
+}
+
+.perfil a {
+    color: #9C9C9C;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
 }
 
 .perfil img {
@@ -47,8 +55,14 @@ body {
     transition: 0.3s ease;
 }
 
-.perfil img:hover {
+.perfil:hover img {
     border: 1.5px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.perfil:hover p {
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .mainUserName {
@@ -58,10 +72,9 @@ body {
     text-align: center;
 }
 
-.mainUserName:hover {
-    color: #FFFFFF;
+.addPerfil:hover {
+    filter: brightness(200%);
 }
-
 
 .footerBoxButton {
     display: flex;
